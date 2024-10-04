@@ -1,0 +1,77 @@
+/* General styles for the calculator */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4caf50;
+}
+
+/* Calculator container */
+.calculator {
+    width: 400px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Display styles */
+#display {
+    width: 90%;
+    height: 50px;
+    text-align: right;
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Button styles */
+button {
+    width: 70px; /* Adjust button width */
+    height: 70px; /* Adjust button height */
+    font-size: 1.5em; /* Button font size */
+    margin: 5px; /* Space between buttons */
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Default button color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+/* Specific styles for operator buttons */
+.operator {
+    background-color: #f39c12; /* Color for operator buttons */
+}
+
+.operator:hover {
+    background-color: #e67e22; /* Darker shade on hover */
+}
+
+/* Specific styles for equals and clear buttons */
+#equals {
+    background-color: #3498db; /* Color for equals button */
+}
+
+#equals:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+
+#clear {
+    background-color: #e74c3c; /* Color for clear button */
+}
+
+#clear:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+}
